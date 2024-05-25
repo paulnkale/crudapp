@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
                 value="<?php echo $row['last_name']?>">
              </div>
              </div>
-             <div class="mb-3">
+             <div  class="mb-3">
              <label class="form-label">Email:</label>
                 <input type="email" class="form-control" name="email"
                 value="<?php echo $row['email']?>">
